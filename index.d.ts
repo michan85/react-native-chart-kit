@@ -1,3 +1,4 @@
+import React, { Component } from 'react'
 declare module "src/abstract-chart" {
     export default AbstractChart;
     class AbstractChart extends React.Component{
