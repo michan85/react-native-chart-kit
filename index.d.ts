@@ -1,6 +1,6 @@
 declare module "src/abstract-chart" {
     export default AbstractChart;
-    class AbstractChart {
+    class AbstractChart extends React.Component{
         calcScaler: (data: any) => number;
         renderHorizontalLines: (config: any) => any[];
         renderHorizontalLabels: (config: any) => any[];
